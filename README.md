@@ -98,12 +98,12 @@ cubemate/
 
 ## 👥 Team Members
 
-| Name | Role | Responsibilities |
-|------|------|-----------------|
-| [Ashvin] | Team Lead | Project coordination, Frontend React.js |
-| [Member 2] | Backend Developer | Node.js, Supabase, Prisma ORM |
-| [Member 3] | Algorithm Engineer | Python solver, Three.js integration |
-| [Member 4] | UI/UX Designer | Tailwind CSS, User experience |
+| Name |
+|------|
+| Ashvin Tiwari |
+| Kanishk Kumar Ranjan |
+| Aayush chaturvedi |
+| Bharat Singh |
 
 ## 📋 Development Progress
 
