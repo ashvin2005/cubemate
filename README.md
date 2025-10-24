@@ -22,21 +22,21 @@ CubeMate is an advanced web application that combines 3D visualization, intellig
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js 18+ with TypeScript
-- Three.js with react-three-fiber
-- Material-UI / Chakra UI
-- Redux Toolkit / Zustand
+- React.js with JavaScript (team expertise)
+- Three.js with react-three-fiber (learnable)
+- Tailwind CSS (team knows)
+- React Router v6
 
 ### Backend
-- Node.js with Express.js / Python with FastAPI
-- PostgreSQL + Redis
-- JWT Authentication
-- OpenCV for computer vision
+- Node.js with Express.js (team expertise)
+- Supabase (PostgreSQL) + Prisma ORM (team knows)
+- JWT Authentication with Supabase Auth
+- Python with kociemba library for cube solving
 
 ### Deployment
-- Frontend: Vercel / Netlify
-- Backend: Railway / Render
-- Database: Supabase / AWS RDS
+- Frontend: Vercel (team knows)
+- Backend: Vercel Serverless Functions
+- Database: Supabase (team expertise)
 
 ## 📁 Project Structure
 
@@ -69,67 +69,60 @@ cubemate/
 ### Prerequisites
 - Node.js (v16+)
 - Python (v3.8+)
-- PostgreSQL
-- Redis
+- Git and GitHub account
 
 ### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-team/cubemate.git
+   git clone https://github.com/ashvin/cubemate.git
    cd cubemate
    ```
 
-2. **Frontend Setup**
+2. **Install all dependencies**
    ```bash
-   cd frontend
-   npm install
-   npm start
+   npm run install:all
    ```
 
-3. **Backend Setup**
+3. **Environment Setup**
    ```bash
-   cd backend
-   npm install
-   # or for Python backend
-   pip install -r requirements.txt
+   # Copy environment template
+   cp .env.example .env
+   # Add your Supabase credentials
+   ```
+
+4. **Start development**
+   ```bash
    npm run dev
-   ```
-
-4. **Database Setup**
-   ```bash
-   # Create PostgreSQL database
-   createdb cubemate_dev
-   # Run migrations
-   npm run migrate
    ```
 
 ## 👥 Team Members
 
 | Name | Role | Responsibilities |
 |------|------|-----------------|
-| [Member 1] | Frontend Lead | React.js, Three.js, UI/UX |
-| [Member 2] | Backend Lead | API, Database, Authentication |
-| [Member 3] | Algorithm Engineer | Kociemba, OpenCV, Performance |
-| [Member 4] | Product Designer | UX/UI, Educational Features |
+| [Ashvin] | Team Lead | Project coordination, Frontend React.js |
+| [Member 2] | Backend Developer | Node.js, Supabase, Prisma ORM |
+| [Member 3] | Algorithm Engineer | Python solver, Three.js integration |
+| [Member 4] | UI/UX Designer | Tailwind CSS, User experience |
 
 ## 📋 Development Progress
 
 ### ✅ Completed
-- [ ] Project planning and architecture
-- [ ] Repository setup
-- [ ] Technology stack selection
+- [x] Project planning and architecture
+- [x] Repository setup and Git initialization
+- [x] Technology stack selection
+- [x] Database schema design (Prisma)
 
 ### 🔄 In Progress
-- [ ] Basic 3D cube rendering
-- [ ] User authentication system
-- [ ] Database schema design
+- [ ] Basic React app setup with Vite
+- [ ] Supabase project configuration
+- [ ] Basic 3D cube rendering with Three.js
 
 ### 📅 Upcoming
-- [ ] Cube state management
-- [ ] Solving algorithm integration
-- [ ] Tutorial system development
-- [ ] Mobile optimization
+- [ ] User authentication with Supabase Auth
+- [ ] Cube state management system
+- [ ] Python solving algorithm integration
+- [ ] Mobile-responsive UI design
 
 ## 🤝 Contributing
 
