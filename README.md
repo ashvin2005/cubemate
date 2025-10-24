@@ -75,7 +75,7 @@ cubemate/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ashvin/cubemate.git
+   git clone https://github.com/ashvin2005/cubemate.git
    cd cubemate
    ```
 
