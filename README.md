@@ -177,5 +177,3 @@ This project is created for educational purposes as part of a semester project. 
 ---
 
 **Note**: This project is actively under development. Features and documentation will be updated regularly as we progress through the semester.
-
-*Last Updated: October 2025*
