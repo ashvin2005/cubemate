@@ -17,7 +17,6 @@ CubeMate is an advanced web application that combines 3D visualization, intellig
 - 📚 **Learning Hub**: Step-by-step tutorials and pattern library
 - 📊 **Progress Tracking**: Personal statistics and achievement system
 - 🏆 **Community Features**: Challenges, leaderboards, and competitions
-- 📱 **Mobile Friendly**: Responsive design with PWA support
 
 ## 🛠️ Tech Stack
 
