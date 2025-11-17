@@ -101,7 +101,7 @@ cubemate/
 |------|
 | Ashvin Tiwari |
 | Kanishk Kumar Ranjan |
-| Aayush chaturvedi |
+| Aayush Chaturvedi |
 | Bharat Singh |
 
 ## 📋 Development Progress
